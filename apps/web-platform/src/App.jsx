@@ -4,7 +4,8 @@ import SoundStudio from "./simulators/SoundStudio.jsx";
 import ImageStudio from "./simulators/ImageStudio.jsx";
 import AutomationStudio from "./simulators/AutomationStudio.jsx";
 import VisionCnnLab from "./simulators/VisionCnnLab.jsx";
-const TABS = [["Text & numbers", TextStudio], ["Sound", SoundStudio], ["Image", ImageStudio], ["ESP32 & email", AutomationStudio], ["Vision CNN", VisionCnnLab]];
+import TransformerNlpLab from "./simulators/TransformerNlpLab.jsx";
+const TABS = [["Text & numbers", TextStudio], ["Sound", SoundStudio], ["Image", ImageStudio], ["ESP32 & email", AutomationStudio], ["Vision CNN", VisionCnnLab], ["Transformers & NLP", TransformerNlpLab]];
 export default function App() {
   const [i, setI] = useState(0);
   const Mod = TABS[i][1];
