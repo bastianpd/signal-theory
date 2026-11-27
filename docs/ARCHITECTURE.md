@@ -15,3 +15,11 @@ Real-world source → transduction and signal conditioning → sampling and quan
 - `apps/web-platform/src/theory`: pure functions with no DOM access, reusable by later phases.
 - `apps/web-platform/src/simulators`: one React component per studio.
 - Data flow to the cloud: ESP32 → HTTPS POST (JSON, `text/plain` content type) → Apps Script `doPost` → `MailApp` and optional Sheet row.
+
+## Phases 2 and 3
+| Phase | Representation | Code |
+|---|---|---|
+| 2 Vision | 3 × 224 × 224 bytes → convolution feature maps → class probabilities + Grad-CAM | `src/vision/`, `ml-pipelines/vision-cnn-transfer/` |
+| 3 Language | UTF-8 bytes → subword tokens and IDs → embeddings → attention → intent, severity, actions | `src/nlp/`, `ml-pipelines/nlp-transformers/` |
+
+Both studios can post to the webhook with `event: "vision"` or `event: "nlp"`. The web app always works without model files: Phase 2 falls back to a colour heuristic, Phase 3 to a local engine.
