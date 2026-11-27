@@ -1,0 +1,8 @@
+torch>=2.1
+torchvision>=0.16
+numpy
+scikit-learn
+matplotlib
+Pillow
+onnx>=1.15
+onnxruntime>=1.17
