@@ -1,0 +1,49 @@
+label,text
+temperature_alert,Chamber temperature is rising fast and needs a cooling alert
+temperature_alert,The oven temperature exceeded 85 degrees
+temperature_alert,Alert me when the room gets too hot
+temperature_alert,Temperature sensor reads 41 C and climbing
+temperature_alert,The server rack is overheating
+temperature_alert,It is getting very warm in the greenhouse
+temperature_alert,Heat level is above the safe threshold
+temperature_alert,Warn me if the temperature drops below 5 degrees
+lighting_alert,Illumination dropped sharply in the lab
+lighting_alert,Light level is too low so turn on the lamp
+lighting_alert,The room went dark unexpectedly
+lighting_alert,Lux reading fell under 50
+lighting_alert,Brightness is too high near the window
+lighting_alert,Notify me if the lights fail
+lighting_alert,Lighting in the chamber is dim
+lighting_alert,Sunlight sensor shows sudden darkness
+actuator_control,Turn on the cooling fan
+actuator_control,Switch off the relay
+actuator_control,Activate the water pump for ten minutes
+actuator_control,Please start the heater
+actuator_control,Shut down the ventilation
+actuator_control,Enable the LED indicator
+actuator_control,Open the valve now
+actuator_control,Stop the motor
+status_query,What is the current temperature?
+status_query,Show me the latest sensor readings
+status_query,Is the relay on right now?
+status_query,How bright is the room?
+status_query,Report device status
+status_query,Give me a summary of today's measurements
+status_query,Is the ESP32 online?
+status_query,What was the last alert?
+anomaly_report,Sensor values look strange and unstable
+anomaly_report,Unexpected vibration detected on the motor
+anomaly_report,There is a sudden spike in readings
+anomaly_report,The signal is noisy and erratic
+anomaly_report,Something abnormal is happening with the pump
+anomaly_report,Readings flatlined and stopped changing
+anomaly_report,Unusual pattern in the sensor data
+anomaly_report,Possible sensor failure with values out of range
+maintenance,Schedule maintenance for the cooling system
+maintenance,Replace the battery next week
+maintenance,Calibrate the temperature sensor
+maintenance,Clean the dust filter on the fan
+maintenance,Firmware update is due
+maintenance,Inspect the wiring before winter
+maintenance,Service the pump this month
+maintenance,Remind me to check the relay contacts
