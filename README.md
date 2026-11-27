@@ -61,6 +61,8 @@ The Vision CNN tab works immediately in **mock mode** (a colour heuristic on bui
 
 ## Known limits of Phase 1 and 2
 - The firmware has not been flashed on real hardware by the author; verify readings against a multimeter.
+
+-LINK ACCESS: https://bastianpd.github.io/signal-theory/
 - The firmware uses `setInsecure()` for TLS. Pin Google's root CA before unattended deployment.
 - The browser cannot always read Apps Script's reply because of CORS; the email is still sent.
 - Image uploads are downscaled to 128 px on the long side; the paint grid is 16×16.
